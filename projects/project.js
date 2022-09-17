@@ -67,6 +67,23 @@ const Projects = [
     project_link: "https://trending-filmy.netlify.app/",
     project_type: "Individual Project",
   },
+  {
+    name: "Quiz App",
+    about:
+      "This is a Quiz App , Play Quiz , Create a Quiz , Login to access your Quizes",
+    img: "./quiz.png",
+    gitrepo: "https://github.com/mohan-palleti/quiz_frontend",
+    blog: "",
+    tech_stack: "HTML | CSS | React | NestJS | TypeORM | Chakra UI",
+    tech_stackicons: [
+      `<img src="https://img.icons8.com/color/50/000000/html-5--v1.png" />`,
+      `<img src="https://img.icons8.com/color/50/000000/css3.png"/>`,
+      `<img src="https://img.icons8.com/color/48/000000/react-native.png"/>`,
+      `<img src="https://img.icons8.com/color/48/000000/chakra-ui.png"/> `,
+    ],
+    project_link: "https://quiz-frontend-beta.vercel.app/",
+    project_type: "Individual Project",
+  },
 ];
 
 let projects__container = document.getElementById("projects--container");
